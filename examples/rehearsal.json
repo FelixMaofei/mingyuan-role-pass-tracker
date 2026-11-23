@@ -1,0 +1,99 @@
+{
+  "startDate": "2025-05-01",
+  "members": [
+    {
+      "name": "示例甲",
+      "aliases": [
+        "A"
+      ],
+      "status": "参与中",
+      "joined": "2025-05-01",
+      "left": ""
+    },
+    {
+      "name": "示例乙",
+      "aliases": [],
+      "status": "参与中",
+      "joined": "2025-05-01",
+      "left": ""
+    }
+  ],
+  "meetings": [
+    {
+      "period": 1,
+      "date": "2025-05-07",
+      "source": "虚构的会后会单及获奖名单",
+      "completion": {
+        "attendance": true,
+        "roles": true,
+        "awards": true
+      },
+      "members": [
+        {
+          "name": "示例甲",
+          "attendance": "出席",
+          "roles": [
+            "总主持"
+          ],
+          "awards": [
+            {
+              "name": "最佳主持",
+              "category": "主持"
+            }
+          ]
+        },
+        {
+          "name": "示例乙",
+          "attendance": "出席",
+          "roles": [
+            "时间官"
+          ]
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "date": "2025-05-14",
+      "source": "虚构的第二期会后核对记录",
+      "completion": {
+        "attendance": true,
+        "roles": true,
+        "awards": true
+      },
+      "members": [
+        {
+          "name": "示例甲",
+          "attendance": "出席",
+          "roles": [
+            "备稿演讲"
+          ]
+        },
+        {
+          "name": "示例乙",
+          "attendance": "缺席"
+        }
+      ]
+    }
+  ],
+  "closeMonths": [
+    {
+      "month": "2025-05",
+      "periods": [
+        1,
+        2
+      ],
+      "source": "演练设置为本月仅开两场，两期出席均已核对"
+    }
+  ],
+  "settlements": [
+    {
+      "type": "use",
+      "id": "demo-receipt-01",
+      "name": "示例甲",
+      "amount": 2,
+      "date": "2025-06-01",
+      "reference": "演练抵扣单01",
+      "source": "虚构经办记录：实际使用2元"
+    }
+  ]
+}

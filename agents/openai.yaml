@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色通关与奖励登记"
+  short_description: "按会单整理出席、角色与最佳奖励，演练结算或交给有权限的经办人登记"
+  default_prompt: "请使用 $mingyuan-role-pass-tracker-public，根据本期会单和获奖名单准备登记材料，并列出待确认项。"
